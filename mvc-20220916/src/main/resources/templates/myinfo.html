@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MyInfo</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid #141414;
+            width: 400px;
+        }
+        th, td {
+            border: 1px solid #141414;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>이름</th>
+            <td th:text="${name}"></td>
+        </tr>
+        <tr>
+            <th>나이</th>
+            <td th:text="${ago}"></td>
+        </tr>
+        <tr>
+            <th>휴대폰</th>
+            <td th:text="${phone}"></td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td th:text="${address}"></td>
+        </tr>
+    </table>
+</body>
+</html>
