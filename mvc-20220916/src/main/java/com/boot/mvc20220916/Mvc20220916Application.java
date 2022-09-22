@@ -10,3 +10,4 @@ public class Mvc20220916Application {
 		SpringApplication.run(Mvc20220916Application.class, args);
 	}
 }
+
